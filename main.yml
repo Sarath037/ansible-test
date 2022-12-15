@@ -45,3 +45,11 @@
         group: "{{ httpd_group }}"
       tags:
         - wordpress
+    - name: "Virtualhost Configuration File {{ drupal_domain }}"
+      template:
+        src: virtualhost-dru.yml
+        dest: /etc/apache2/sites-available/000-default.conf
+        owner: "{{ httpd_owner }}"
+        group: "{{ httpd_group }}"
+      tags:
+        - drupal

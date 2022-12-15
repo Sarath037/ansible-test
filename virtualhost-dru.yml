@@ -1,0 +1,7 @@
+<virtualhost *:{{ httpd_port }}>
+
+  servername {{ drupal_domain }}
+  documentroot /var/www/html/{{ drupal_domain }}
+  directoryindex index.html index.php test.php test.html
+
+</virtualhost>

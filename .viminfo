@@ -11,10 +11,10 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
-:q!
-|2,0,1671098825,,"q!"
 :wq!
-|2,0,1671098680,,"wq!"
+|2,0,1671100114,,"wq!"
+:q!
+|2,0,1671100075,,"q!"
 
 # Search String History (newest to oldest):
 
@@ -27,34 +27,102 @@
 # Registers:
 
 # File marks:
-'0  39  18  ~/main.yml
-|4,48,39,18,1671098825,"~/main.yml"
-'1  47  3  ~/main.yml
-|4,49,47,3,1671098782,"~/main.yml"
-'2  47  3  ~/main.yml
-|4,50,47,3,1671098782,"~/main.yml"
-'3  47  3  ~/main.yml
-|4,51,47,3,1671098680,"~/main.yml"
-'4  47  3  ~/main.yml
-|4,52,47,3,1671098680,"~/main.yml"
-'5  7  13  ~/virtualhost.yml
-|4,53,7,13,1671097986,"~/virtualhost.yml"
-'6  40  0  ~/main.yml
-|4,54,40,0,1671097902,"~/main.yml"
-'7  40  0  ~/main.yml
-|4,55,40,0,1671097902,"~/main.yml"
-'8  40  0  ~/main.yml
-|4,56,40,0,1671097902,"~/main.yml"
-'9  40  0  ~/main.yml
-|4,57,40,0,1671097902,"~/main.yml"
+'0  7  13  ~/virtualhost-dru.yml
+|4,48,7,13,1671100114,"~/virtualhost-dru.yml"
+'1  55  15  ~/main.yml
+|4,49,55,15,1671100075,"~/main.yml"
+'2  55  15  ~/main.yml
+|4,50,55,15,1671100054,"~/main.yml"
+'3  1  0  ~/main.
+|4,51,1,0,1671100014,"~/main."
+'4  39  18  ~/main.yml
+|4,52,39,18,1671098825,"~/main.yml"
+'5  39  18  ~/main.yml
+|4,53,39,18,1671098825,"~/main.yml"
+'6  39  18  ~/main.yml
+|4,54,39,18,1671098825,"~/main.yml"
+'7  39  18  ~/main.yml
+|4,55,39,18,1671098825,"~/main.yml"
+'8  47  3  ~/main.yml
+|4,56,47,3,1671098782,"~/main.yml"
+'9  47  3  ~/main.yml
+|4,57,47,3,1671098782,"~/main.yml"
 
 # Jumplist (newest first):
+-'  7  13  ~/virtualhost-dru.yml
+|4,39,7,13,1671100114,"~/virtualhost-dru.yml"
+-'  1  0  ~/virtualhost-dru.yml
+|4,39,1,0,1671100085,"~/virtualhost-dru.yml"
+-'  55  15  ~/main.yml
+|4,39,55,15,1671100075,"~/main.yml"
+-'  55  15  ~/main.yml
+|4,39,55,15,1671100075,"~/main.yml"
+-'  55  15  ~/main.yml
+|4,39,55,15,1671100054,"~/main.yml"
+-'  55  15  ~/main.yml
+|4,39,55,15,1671100054,"~/main.yml"
+-'  39  18  ~/main.yml
+|4,39,39,18,1671100017,"~/main.yml"
+-'  39  18  ~/main.yml
+|4,39,39,18,1671100017,"~/main.yml"
+-'  39  18  ~/main.yml
+|4,39,39,18,1671100017,"~/main.yml"
+-'  39  18  ~/main.yml
+|4,39,39,18,1671100017,"~/main.yml"
+-'  1  0  ~/main.
+|4,39,1,0,1671100014,"~/main."
+-'  1  0  ~/main.
+|4,39,1,0,1671100014,"~/main."
+-'  1  0  ~/main.
+|4,39,1,0,1671100014,"~/main."
+-'  1  0  ~/main.
+|4,39,1,0,1671100014,"~/main."
+-'  1  0  ~/main.
+|4,39,1,0,1671100014,"~/main."
+-'  1  0  ~/main.
+|4,39,1,0,1671100014,"~/main."
+-'  1  0  ~/main.
+|4,39,1,0,1671100014,"~/main."
+-'  1  0  ~/main.
+|4,39,1,0,1671100014,"~/main."
+-'  39  18  ~/main.yml
+|4,39,39,18,1671098825,"~/main.yml"
+-'  39  18  ~/main.yml
+|4,39,39,18,1671098825,"~/main.yml"
+-'  39  18  ~/main.yml
+|4,39,39,18,1671098825,"~/main.yml"
 -'  39  18  ~/main.yml
 |4,39,39,18,1671098825,"~/main.yml"
 -'  47  3  ~/main.yml
 |4,39,47,3,1671098799,"~/main.yml"
 -'  47  3  ~/main.yml
+|4,39,47,3,1671098799,"~/main.yml"
+-'  47  3  ~/main.yml
+|4,39,47,3,1671098799,"~/main.yml"
+-'  47  3  ~/main.yml
+|4,39,47,3,1671098799,"~/main.yml"
+-'  47  3  ~/main.yml
+|4,39,47,3,1671098799,"~/main.yml"
+-'  47  3  ~/main.yml
+|4,39,47,3,1671098799,"~/main.yml"
+-'  47  3  ~/main.yml
+|4,39,47,3,1671098799,"~/main.yml"
+-'  47  3  ~/main.yml
+|4,39,47,3,1671098799,"~/main.yml"
+-'  47  3  ~/main.yml
 |4,39,47,3,1671098782,"~/main.yml"
+-'  47  3  ~/main.yml
+|4,39,47,3,1671098782,"~/main.yml"
+-'  47  3  ~/main.yml
+|4,39,47,3,1671098782,"~/main.yml"
+-'  47  3  ~/main.yml
+|4,39,47,3,1671098782,"~/main.yml"
+-'  47  3  ~/main.yml
+|4,39,47,3,1671098680,"~/main.yml"
+-'  47  3  ~/main.yml
+|4,39,47,3,1671098680,"~/main.yml"
+-'  47  3  ~/main.yml
+|4,39,47,3,1671098680,"~/main.yml"
 -'  47  3  ~/main.yml
 |4,39,47,3,1671098680,"~/main.yml"
 -'  40  0  ~/main.yml
@@ -63,200 +131,139 @@
 |4,39,40,0,1671098563,"~/main.yml"
 -'  40  0  ~/main.yml
 |4,39,40,0,1671098563,"~/main.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  1  0  ~/virtualhost.yml
-|4,39,1,0,1671097946,"~/virtualhost.yml"
--'  1  0  ~/virtualhost.yml
-|4,39,1,0,1671097946,"~/virtualhost.yml"
--'  1  0  ~/virtualhost.yml
-|4,39,1,0,1671097946,"~/virtualhost.yml"
--'  1  0  ~/virtualhost.yml
-|4,39,1,0,1671097946,"~/virtualhost.yml"
--'  1  0  ~/virtualhost.yml
-|4,39,1,0,1671097946,"~/virtualhost.yml"
--'  1  0  ~/virtualhost.yml
-|4,39,1,0,1671097946,"~/virtualhost.yml"
--'  1  0  ~/virtualhost.yml
-|4,39,1,0,1671097946,"~/virtualhost.yml"
--'  1  0  ~/virtualhost.yml
-|4,39,1,0,1671097946,"~/virtualhost.yml"
 -'  40  0  ~/main.yml
-|4,39,40,0,1671097902,"~/main.yml"
+|4,39,40,0,1671098563,"~/main.yml"
 -'  40  0  ~/main.yml
-|4,39,40,0,1671097902,"~/main.yml"
--'  31  15  ~/main.yml
-|4,39,31,15,1671097853,"~/main.yml"
--'  31  15  ~/main.yml
-|4,39,31,15,1671097853,"~/main.yml"
--'  31  15  ~/main.yml
-|4,39,31,15,1671097853,"~/main.yml"
--'  31  15  ~/main.yml
-|4,39,31,15,1671097853,"~/main.yml"
--'  31  15  ~/main.yml
-|4,39,31,15,1671097853,"~/main.yml"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  5  22  ~/port.conf.tmpl
-|4,39,5,22,1671097767,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  1  0  ~/port.conf.tmpl
-|4,39,1,0,1671097744,"~/port.conf.tmpl"
--'  31  15  ~/main.yml
-|4,39,31,15,1671097450,"~/main.yml"
--'  31  15  ~/main.yml
-|4,39,31,15,1671097450,"~/main.yml"
--'  31  15  ~/main.yml
-|4,39,31,15,1671097450,"~/main.yml"
--'  31  15  ~/main.yml
-|4,39,31,15,1671097450,"~/main.yml"
--'  6  9  ~/main.yml
-|4,39,6,9,1671097381,"~/main.yml"
--'  6  9  ~/main.yml
-|4,39,6,9,1671097381,"~/main.yml"
+|4,39,40,0,1671098563,"~/main.yml"
+-'  40  0  ~/main.yml
+|4,39,40,0,1671098563,"~/main.yml"
+-'  40  0  ~/main.yml
+|4,39,40,0,1671098563,"~/main.yml"
+-'  40  0  ~/main.yml
+|4,39,40,0,1671098563,"~/main.yml"
+-'  40  0  ~/main.yml
+|4,39,40,0,1671098563,"~/main.yml"
+-'  40  0  ~/main.yml
+|4,39,40,0,1671098563,"~/main.yml"
+-'  40  0  ~/main.yml
+|4,39,40,0,1671098563,"~/main.yml"
+-'  40  0  ~/main.yml
+|4,39,40,0,1671098563,"~/main.yml"
+-'  40  0  ~/main.yml
+|4,39,40,0,1671098563,"~/main.yml"
+-'  40  0  ~/main.yml
+|4,39,40,0,1671098563,"~/main.yml"
+-'  40  0  ~/main.yml
+|4,39,40,0,1671098563,"~/main.yml"
+-'  40  0  ~/main.yml
+|4,39,40,0,1671098563,"~/main.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
+-'  7  13  ~/virtualhost.yml
+|4,39,7,13,1671097986,"~/virtualhost.yml"
 
 # History of marks within files (newest to oldest):
 
+> ~/virtualhost-dru.yml
+	*	1671100109	0
+	"	7	13
+	^	7	14
+	.	7	13
+	+	7	13
+
 > ~/main.yml
-	*	1671098821	0
-	"	39	18
-	^	39	19
-	.	40	0
+	*	1671100074	0
+	"	55	15
+	^	55	16
+	.	55	15
 	+	22	15
 	+	6	10
 	+	31	16
@@ -266,6 +273,11 @@
 	+	47	18
 	+	40	4
 	+	40	0
+	+	55	15
+
+> ~/main.
+	*	1671100013	0
+	"	1	0
 
 > ~/virtualhost.yml
 	*	1671097982	0
