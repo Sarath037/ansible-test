@@ -61,3 +61,165 @@
         group: "{{ httpd_group }}"
       tags:
         - drupal
+    - name: "Restart/enable mariadb"
+      service:
+        name: mariadb
+        state: restarted
+        enabled: true
+      tags:
+        - drupal
+        - wordpress
+    - name: "setting root password"
+      mysql_user:
+        user: "{{ mysql_user }}"
+        password: "{{ mysql_root_passwd }}"
+        host: "%"
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+      tags:
+        - drupal
+        - wordpress
+    - name: "fetch root password"
+      template:
+        src: my.cnf.tmpl
+        dest: /root/.my.cnf
+        owner: root
+        group: root
+        mode: 0600
+      tags:
+        - drupal
+        - wordpress
+    - name: "removing anonymous users"
+      mysql_user:
+        user: ""
+        host_all: true
+        state: absent
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+      tags:
+        - drupal
+        - wordpress
+    - name: "create data base"
+      mysql_db:
+        name: "{{ mysql_extra_database }}"
+        state: present
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+      tags:
+        - drupal
+        - wordpress
+    - name: "removing test database"
+      mysql_db:
+        name: test
+        state: absent
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+      tags:
+        - drupal
+        - wordpress
+    - name: "create extra user"
+      mysql_user:
+        user: "{{ mysql_extra_usr }}"
+        password: "{{ mysql_extra_usr_passwd }}"
+        priv: '{{ mysql_extra_database }}.*:ALL'
+        host: "%"
+        state: present
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+      tags:
+        - drupal
+        - wordpress
+    - name: "Downloading wordpress url"
+      get_url:
+        url: "{{ wp_url }}"
+        dest: /tmp/latest.zip
+      tags:
+        - wordpress
+    - name: "extracting"
+      unarchive:
+        src: /tmp/latest.zip
+        dest: /tmp/
+        remote_src: true
+      tags:
+        - wordpress
+    - name: "copying files to document root"
+      copy:
+        src: /tmp/wordpress/
+        dest: /var/www/html/{{ httpd_domain }}
+        owner: "{{ httpd_owner }}"
+        group: "{{ httpd_group }}"
+        remote_src: true
+      tags:
+        - wordpress
+    - name: "create wp-config"
+      template:
+        src: wp-congig.yml
+        dest: /var/www/html/{{ httpd_domain }}/wp-config.php
+        owner: "{{ httpd_owner }}"
+        group: "{{ httpd_group }}"
+      tags:
+        - wordpress
+    - name: "post installation cleanup"
+      file:
+        path: "{{ item }}"
+        dest: /tmp/
+      with_items:
+        - "/tmp/wordpress/"
+        - "/tmp/latest.zip"
+      tags:
+        - wordpress
+    - name: "Downloading drupal url"
+      get_url:
+        url: "{{ drupal_url }}"
+        dest: /tmp/tar.gz
+      tags:
+        - drupal
+    - name: "extracting"
+      unarchive:
+        src: /tmp/tar.gz
+        dest: /tmp/
+        remote_src: true
+      tags:
+        - drupal
+    - name: "copying files to document root"
+      copy:
+        src: /tmp/drupal-9.4.9/
+        dest: /var/www/html/{{ drupal_domain }}
+        owner: "{{ httpd_owner }}"
+        group: "{{ httpd_group }}"
+        remote_src: true
+      tags:
+        - drupal
+    - name: "create settings.php"
+      copy:
+        src: /var/www/html/{{ drupal_domain }}/sites/default/default.settings.php
+        dest: /var/www/html/{{ drupal_domain }}/sites/default/settings.php
+        owner: "{{ httpd_owner }}"
+        group: "{{ httpd_group }}"
+        remote_src: true
+      tags:
+        - drupal
+    - name: "creating service.yml"
+      copy:
+        src: /var/www/html/{{ drupal_domain }}/sites/default/default.services.yml
+        dest: /var/www/html/{{ drupal_domain }}/sites/default/services.yml
+        owner: "{{ httpd_owner }}"
+        group: "{{ httpd_group }}"
+        remote_src: true
+      tags:
+        - drupal
+    - name: "post installation restart"
+      service:
+        name: "{{ item }}"
+        state: restarted
+        enabled: true
+      with_items:
+        - "mariadb"
+        - "apache2"
+      tags:
+        - drupal
+        - wordpress
+    - name: "post installation cleanup"
+      file:
+        path: "{{ item }}"
+        dest: /tmp/
+      with_items:
+        - "/tmp/drupal-9.4.8"
+        - "/tmp/tar.gz"
+      tags:
+        - drupal

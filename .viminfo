@@ -12,9 +12,13 @@
 ~H
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1671100328,,"wq!"
+|2,0,1671106337,,"wq!"
 :q!
-|2,0,1671100075,,"q!"
+|2,0,1671105871,,"q!"
+:wq
+|2,0,1671102788,,"wq"
+:q1
+|2,0,1671101255,,"q1"
 
 # Search String History (newest to oldest):
 
@@ -27,236 +31,236 @@
 # Registers:
 
 # File marks:
-'0  56  3  ~/main.yml
-|4,48,56,3,1671100328,"~/main.yml"
-'1  7  13  ~/virtualhost-dru.yml
-|4,49,7,13,1671100114,"~/virtualhost-dru.yml"
-'2  55  15  ~/main.yml
-|4,50,55,15,1671100075,"~/main.yml"
-'3  55  15  ~/main.yml
-|4,51,55,15,1671100075,"~/main.yml"
-'4  55  15  ~/main.yml
-|4,52,55,15,1671100054,"~/main.yml"
-'5  55  15  ~/main.yml
-|4,53,55,15,1671100054,"~/main.yml"
-'6  1  0  ~/main.
-|4,54,1,0,1671100014,"~/main."
-'7  39  18  ~/main.yml
-|4,55,39,18,1671098825,"~/main.yml"
-'8  39  18  ~/main.yml
-|4,56,39,18,1671098825,"~/main.yml"
-'9  39  18  ~/main.yml
-|4,57,39,18,1671098825,"~/main.yml"
+'0  225  3  ~/main.yml
+|4,48,225,3,1671106337,"~/main.yml"
+'1  205  15  ~/main.yml
+|4,49,205,15,1671106125,"~/main.yml"
+'2  205  15  ~/main.yml
+|4,50,205,15,1671106125,"~/main.yml"
+'3  181  29  ~/main.yml
+|4,51,181,29,1671105898,"~/main.yml"
+'4  181  29  ~/main.yml
+|4,52,181,29,1671105898,"~/main.yml"
+'5  181  29  ~/main.yml
+|4,53,181,29,1671105898,"~/main.yml"
+'6  181  29  ~/main.yml
+|4,54,181,29,1671105898,"~/main.yml"
+'7  1  0  ~/main.
+|4,55,1,0,1671105871,"~/main."
+'8  181  27  ~/main.yml
+|4,56,181,27,1671102788,"~/main.yml"
+'9  181  27  ~/main.yml
+|4,57,181,27,1671102788,"~/main.yml"
 
 # Jumplist (newest first):
--'  56  3  ~/main.yml
-|4,39,56,3,1671100328,"~/main.yml"
--'  55  15  ~/main.yml
-|4,39,55,15,1671100274,"~/main.yml"
--'  7  13  ~/virtualhost-dru.yml
-|4,39,7,13,1671100114,"~/virtualhost-dru.yml"
--'  7  13  ~/virtualhost-dru.yml
-|4,39,7,13,1671100114,"~/virtualhost-dru.yml"
--'  1  0  ~/virtualhost-dru.yml
-|4,39,1,0,1671100085,"~/virtualhost-dru.yml"
--'  1  0  ~/virtualhost-dru.yml
-|4,39,1,0,1671100085,"~/virtualhost-dru.yml"
--'  55  15  ~/main.yml
-|4,39,55,15,1671100075,"~/main.yml"
--'  55  15  ~/main.yml
-|4,39,55,15,1671100075,"~/main.yml"
--'  55  15  ~/main.yml
-|4,39,55,15,1671100054,"~/main.yml"
--'  55  15  ~/main.yml
-|4,39,55,15,1671100054,"~/main.yml"
--'  39  18  ~/main.yml
-|4,39,39,18,1671100017,"~/main.yml"
--'  39  18  ~/main.yml
-|4,39,39,18,1671100017,"~/main.yml"
--'  39  18  ~/main.yml
-|4,39,39,18,1671100017,"~/main.yml"
--'  39  18  ~/main.yml
-|4,39,39,18,1671100017,"~/main.yml"
--'  39  18  ~/main.yml
-|4,39,39,18,1671100017,"~/main.yml"
+-'  225  3  ~/main.yml
+|4,39,225,3,1671106337,"~/main.yml"
+-'  205  15  ~/main.yml
+|4,39,205,15,1671106291,"~/main.yml"
+-'  205  15  ~/main.yml
+|4,39,205,15,1671106125,"~/main.yml"
+-'  181  29  ~/main.yml
+|4,39,181,29,1671106025,"~/main.yml"
+-'  181  29  ~/main.yml
+|4,39,181,29,1671106025,"~/main.yml"
+-'  181  29  ~/main.yml
+|4,39,181,29,1671105898,"~/main.yml"
 -'  1  0  ~/main.
-|4,39,1,0,1671100014,"~/main."
+|4,39,1,0,1671105871,"~/main."
 -'  1  0  ~/main.
-|4,39,1,0,1671100014,"~/main."
+|4,39,1,0,1671105871,"~/main."
 -'  1  0  ~/main.
-|4,39,1,0,1671100014,"~/main."
+|4,39,1,0,1671105871,"~/main."
 -'  1  0  ~/main.
-|4,39,1,0,1671100014,"~/main."
+|4,39,1,0,1671105871,"~/main."
 -'  1  0  ~/main.
-|4,39,1,0,1671100014,"~/main."
+|4,39,1,0,1671105871,"~/main."
 -'  1  0  ~/main.
-|4,39,1,0,1671100014,"~/main."
+|4,39,1,0,1671105871,"~/main."
 -'  1  0  ~/main.
-|4,39,1,0,1671100014,"~/main."
+|4,39,1,0,1671105871,"~/main."
 -'  1  0  ~/main.
-|4,39,1,0,1671100014,"~/main."
--'  1  0  ~/main.
-|4,39,1,0,1671100014,"~/main."
--'  1  0  ~/main.
-|4,39,1,0,1671100014,"~/main."
--'  1  0  ~/main.
-|4,39,1,0,1671100014,"~/main."
--'  1  0  ~/main.
-|4,39,1,0,1671100014,"~/main."
--'  1  0  ~/main.
-|4,39,1,0,1671100014,"~/main."
--'  1  0  ~/main.
-|4,39,1,0,1671100014,"~/main."
--'  1  0  ~/main.
-|4,39,1,0,1671100014,"~/main."
--'  1  0  ~/main.
-|4,39,1,0,1671100014,"~/main."
--'  39  18  ~/main.yml
-|4,39,39,18,1671098825,"~/main.yml"
--'  39  18  ~/main.yml
-|4,39,39,18,1671098825,"~/main.yml"
--'  39  18  ~/main.yml
-|4,39,39,18,1671098825,"~/main.yml"
--'  39  18  ~/main.yml
-|4,39,39,18,1671098825,"~/main.yml"
--'  47  3  ~/main.yml
-|4,39,47,3,1671098799,"~/main.yml"
--'  47  3  ~/main.yml
-|4,39,47,3,1671098799,"~/main.yml"
--'  47  3  ~/main.yml
-|4,39,47,3,1671098799,"~/main.yml"
--'  47  3  ~/main.yml
-|4,39,47,3,1671098799,"~/main.yml"
--'  47  3  ~/main.yml
-|4,39,47,3,1671098799,"~/main.yml"
--'  47  3  ~/main.yml
-|4,39,47,3,1671098799,"~/main.yml"
--'  47  3  ~/main.yml
-|4,39,47,3,1671098799,"~/main.yml"
--'  47  3  ~/main.yml
-|4,39,47,3,1671098799,"~/main.yml"
--'  47  3  ~/main.yml
-|4,39,47,3,1671098799,"~/main.yml"
--'  47  3  ~/main.yml
-|4,39,47,3,1671098782,"~/main.yml"
--'  47  3  ~/main.yml
-|4,39,47,3,1671098782,"~/main.yml"
--'  47  3  ~/main.yml
-|4,39,47,3,1671098782,"~/main.yml"
--'  47  3  ~/main.yml
-|4,39,47,3,1671098782,"~/main.yml"
--'  47  3  ~/main.yml
-|4,39,47,3,1671098680,"~/main.yml"
--'  47  3  ~/main.yml
-|4,39,47,3,1671098680,"~/main.yml"
--'  47  3  ~/main.yml
-|4,39,47,3,1671098680,"~/main.yml"
--'  47  3  ~/main.yml
-|4,39,47,3,1671098680,"~/main.yml"
--'  40  0  ~/main.yml
-|4,39,40,0,1671098563,"~/main.yml"
--'  40  0  ~/main.yml
-|4,39,40,0,1671098563,"~/main.yml"
--'  40  0  ~/main.yml
-|4,39,40,0,1671098563,"~/main.yml"
--'  40  0  ~/main.yml
-|4,39,40,0,1671098563,"~/main.yml"
--'  40  0  ~/main.yml
-|4,39,40,0,1671098563,"~/main.yml"
--'  40  0  ~/main.yml
-|4,39,40,0,1671098563,"~/main.yml"
--'  40  0  ~/main.yml
-|4,39,40,0,1671098563,"~/main.yml"
--'  40  0  ~/main.yml
-|4,39,40,0,1671098563,"~/main.yml"
--'  40  0  ~/main.yml
-|4,39,40,0,1671098563,"~/main.yml"
--'  40  0  ~/main.yml
-|4,39,40,0,1671098563,"~/main.yml"
--'  40  0  ~/main.yml
-|4,39,40,0,1671098563,"~/main.yml"
--'  40  0  ~/main.yml
-|4,39,40,0,1671098563,"~/main.yml"
--'  40  0  ~/main.yml
-|4,39,40,0,1671098563,"~/main.yml"
--'  40  0  ~/main.yml
-|4,39,40,0,1671098563,"~/main.yml"
--'  40  0  ~/main.yml
-|4,39,40,0,1671098563,"~/main.yml"
--'  40  0  ~/main.yml
-|4,39,40,0,1671098563,"~/main.yml"
--'  40  0  ~/main.yml
-|4,39,40,0,1671098563,"~/main.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
--'  7  13  ~/virtualhost.yml
-|4,39,7,13,1671097986,"~/virtualhost.yml"
+|4,39,1,0,1671105871,"~/main."
+-'  181  27  ~/main.yml
+|4,39,181,27,1671102788,"~/main.yml"
+-'  181  27  ~/main.yml
+|4,39,181,27,1671102788,"~/main.yml"
+-'  187  3  ~/main.yml
+|4,39,187,3,1671102768,"~/main.yml"
+-'  187  3  ~/main.yml
+|4,39,187,3,1671102768,"~/main.yml"
+-'  187  3  ~/main.yml
+|4,39,187,3,1671102768,"~/main.yml"
+-'  187  3  ~/main.yml
+|4,39,187,3,1671102768,"~/main.yml"
+-'  187  3  ~/main.yml
+|4,39,187,3,1671102768,"~/main.yml"
+-'  187  3  ~/main.yml
+|4,39,187,3,1671102729,"~/main.yml"
+-'  187  3  ~/main.yml
+|4,39,187,3,1671102729,"~/main.yml"
+-'  187  15  ~/main.yml
+|4,39,187,15,1671102680,"~/main.yml"
+-'  187  15  ~/main.yml
+|4,39,187,15,1671102680,"~/main.yml"
+-'  165  18  ~/main.yml
+|4,39,165,18,1671102590,"~/main.yml"
+-'  165  18  ~/main.yml
+|4,39,165,18,1671102590,"~/main.yml"
+-'  165  18  ~/main.yml
+|4,39,165,18,1671102590,"~/main.yml"
+-'  165  18  ~/main.yml
+|4,39,165,18,1671102590,"~/main.yml"
+-'  165  18  ~/main.yml
+|4,39,165,18,1671102590,"~/main.yml"
+-'  165  18  ~/main.yml
+|4,39,165,18,1671102590,"~/main.yml"
+-'  165  18  ~/main.yml
+|4,39,165,18,1671102590,"~/main.yml"
+-'  165  18  ~/main.yml
+|4,39,165,18,1671102590,"~/main.yml"
+-'  165  18  ~/main.yml
+|4,39,165,18,1671102590,"~/main.yml"
+-'  165  18  ~/main.yml
+|4,39,165,18,1671102460,"~/main.yml"
+-'  165  18  ~/main.yml
+|4,39,165,18,1671102460,"~/main.yml"
+-'  151  25  ~/main.yml
+|4,39,151,25,1671102449,"~/main.yml"
+-'  151  25  ~/main.yml
+|4,39,151,25,1671102449,"~/main.yml"
+-'  151  25  ~/main.yml
+|4,39,151,25,1671102449,"~/main.yml"
+-'  151  25  ~/main.yml
+|4,39,151,25,1671102449,"~/main.yml"
+-'  151  25  ~/main.yml
+|4,39,151,25,1671102449,"~/main.yml"
+-'  151  25  ~/main.yml
+|4,39,151,25,1671102449,"~/main.yml"
+-'  151  25  ~/main.yml
+|4,39,151,25,1671102449,"~/main.yml"
+-'  151  25  ~/main.yml
+|4,39,151,25,1671102449,"~/main.yml"
+-'  151  25  ~/main.yml
+|4,39,151,25,1671102449,"~/main.yml"
+-'  151  25  ~/main.yml
+|4,39,151,25,1671102449,"~/main.yml"
+-'  151  25  ~/main.yml
+|4,39,151,25,1671102449,"~/main.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
 
 # History of marks within files (newest to oldest):
 
 > ~/main.yml
-	*	1671100325	0
-	"	56	3
-	^	56	4
-	.	56	4
+	*	1671106334	0
+	"	225	3
+	^	225	4
+	.	206	4
 	+	22	15
 	+	6	10
 	+	31	16
@@ -269,6 +273,44 @@
 	+	55	16
 	+	63	15
 	+	56	4
+	+	71	18
+	+	64	4
+	+	126	18
+	+	83	23
+	+	140	0
+	+	148	19
+	+	156	18
+	+	151	25
+	+	165	19
+	+	187	15
+	+	166	3
+	+	181	29
+	+	206	0
+	+	225	15
+	+	206	4
+
+> ~/main.
+	*	1671105869	0
+	"	1	0
+
+> ~/wp-congig.yml
+	*	1671102027	0
+	"	29	49
+	^	29	50
+	.	29	49
+	+	96	40
+	+	23	45
+	+	26	40
+	+	29	49
+
+> ~/my.cnf.tmpl
+	*	1671101065	0
+	"	3	29
+	^	3	30
+	.	3	29
+	+	3	17
+	+	2	21
+	+	3	29
 
 > ~/virtualhost-dru.yml
 	*	1671100109	0
@@ -276,10 +318,6 @@
 	^	7	14
 	.	7	13
 	+	7	13
-
-> ~/main.
-	*	1671100013	0
-	"	1	0
 
 > ~/virtualhost.yml
 	*	1671097982	0
