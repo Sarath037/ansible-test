@@ -124,3 +124,16 @@
       tags:
         - drupal
         - wordpress
+    - name: "Downloading wordpress url"
+      get_url:
+        url: "{{ wp_url }}"
+        dest: /tmp/latest.zip
+      tags:
+        - wordpress
+    - name: "extracting"
+      unarchive:
+        src: /tmp/latest.zip
+        dest: /tmp/
+        remote_src: true
+      tags:
+        - wordpress
