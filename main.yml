@@ -20,3 +20,12 @@
       tags:
         - wordpress
         - drupal
+    - name: "Lamp - Creating httpd.conf from template"
+      template:
+        src: port.conf.tmpl
+        dest: /etc/apache2/ports.conf
+        owner: "{{ httpd_owner }}"
+        group: "{{ httpd_group }}"
+      tags:
+        - wordpress
+        - drupal
