@@ -203,3 +203,23 @@
         remote_src: true
       tags:
         - drupal
+    - name: "post installation restart"
+      service:
+        name: "{{ item }}"
+        state: restarted
+        enabled: true
+      with_items:
+        - "mariadb"
+        - "apache2"
+      tags:
+        - drupal
+        - wordpress
+    - name: "post installation cleanup"
+      file:
+        path: "{{ item }}"
+        dest: /tmp/
+      with_items:
+        - "/tmp/drupal-9.4.8"
+        - "/tmp/tar.gz"
+      tags:
+        - drupal
