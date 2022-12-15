@@ -53,3 +53,11 @@
         group: "{{ httpd_group }}"
       tags:
         - drupal
+    - name: "Lamp - Creating Documentroot {{ drupal_domain }}"
+      file:
+        path: "/var/www/html/{{ drupal_domain }}"
+        state: directory
+        owner: "{{ httpd_owner }}"
+        group: "{{ httpd_group }}"
+      tags:
+        - drupal
