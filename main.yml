@@ -185,3 +185,21 @@
         remote_src: true
       tags:
         - drupal
+    - name: "create settings.php"
+      copy:
+        src: /var/www/html/{{ drupal_domain }}/sites/default/default.settings.php
+        dest: /var/www/html/{{ drupal_domain }}/sites/default/settings.php
+        owner: "{{ httpd_owner }}"
+        group: "{{ httpd_group }}"
+        remote_src: true
+      tags:
+        - drupal
+    - name: "creating service.yml"
+      copy:
+        src: /var/www/html/{{ drupal_domain }}/sites/default/default.services.yml
+        dest: /var/www/html/{{ drupal_domain }}/sites/default/services.yml
+        owner: "{{ httpd_owner }}"
+        group: "{{ httpd_group }}"
+        remote_src: true
+      tags:
+        - drupal

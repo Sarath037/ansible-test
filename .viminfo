@@ -12,7 +12,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1671105898,,"wq!"
+|2,0,1671106125,,"wq!"
 :q!
 |2,0,1671105871,,"q!"
 :wq
@@ -31,38 +31,48 @@
 # Registers:
 
 # File marks:
-'0  181  29  ~/main.yml
-|4,48,181,29,1671105898,"~/main.yml"
-'1  1  0  ~/main.
-|4,49,1,0,1671105871,"~/main."
-'2  181  27  ~/main.yml
-|4,50,181,27,1671102788,"~/main.yml"
-'3  187  3  ~/main.yml
-|4,51,187,3,1671102729,"~/main.yml"
-'4  187  3  ~/main.yml
-|4,52,187,3,1671102729,"~/main.yml"
-'5  187  3  ~/main.yml
-|4,53,187,3,1671102729,"~/main.yml"
+'0  205  15  ~/main.yml
+|4,48,205,15,1671106125,"~/main.yml"
+'1  181  29  ~/main.yml
+|4,49,181,29,1671105898,"~/main.yml"
+'2  181  29  ~/main.yml
+|4,50,181,29,1671105898,"~/main.yml"
+'3  1  0  ~/main.
+|4,51,1,0,1671105871,"~/main."
+'4  181  27  ~/main.yml
+|4,52,181,27,1671102788,"~/main.yml"
+'5  181  27  ~/main.yml
+|4,53,181,27,1671102788,"~/main.yml"
 '6  187  3  ~/main.yml
 |4,54,187,3,1671102729,"~/main.yml"
-'7  187  15  ~/main.yml
-|4,55,187,15,1671102680,"~/main.yml"
-'8  187  15  ~/main.yml
-|4,56,187,15,1671102680,"~/main.yml"
-'9  187  15  ~/main.yml
-|4,57,187,15,1671102680,"~/main.yml"
+'7  187  3  ~/main.yml
+|4,55,187,3,1671102729,"~/main.yml"
+'8  187  3  ~/main.yml
+|4,56,187,3,1671102729,"~/main.yml"
+'9  187  3  ~/main.yml
+|4,57,187,3,1671102729,"~/main.yml"
 
 # Jumplist (newest first):
+-'  205  15  ~/main.yml
+|4,39,205,15,1671106125,"~/main.yml"
+-'  181  29  ~/main.yml
+|4,39,181,29,1671106025,"~/main.yml"
 -'  181  29  ~/main.yml
 |4,39,181,29,1671105898,"~/main.yml"
 -'  1  0  ~/main.
 |4,39,1,0,1671105871,"~/main."
 -'  1  0  ~/main.
 |4,39,1,0,1671105871,"~/main."
+-'  1  0  ~/main.
+|4,39,1,0,1671105871,"~/main."
+-'  1  0  ~/main.
+|4,39,1,0,1671105871,"~/main."
 -'  181  27  ~/main.yml
 |4,39,181,27,1671102788,"~/main.yml"
 -'  181  27  ~/main.yml
 |4,39,181,27,1671102788,"~/main.yml"
+-'  187  3  ~/main.yml
+|4,39,187,3,1671102768,"~/main.yml"
 -'  187  3  ~/main.yml
 |4,39,187,3,1671102768,"~/main.yml"
 -'  187  3  ~/main.yml
@@ -77,6 +87,8 @@
 |4,39,187,15,1671102680,"~/main.yml"
 -'  187  15  ~/main.yml
 |4,39,187,15,1671102680,"~/main.yml"
+-'  165  18  ~/main.yml
+|4,39,165,18,1671102590,"~/main.yml"
 -'  165  18  ~/main.yml
 |4,39,165,18,1671102590,"~/main.yml"
 -'  165  18  ~/main.yml
@@ -113,154 +125,142 @@
 |4,39,151,25,1671102449,"~/main.yml"
 -'  151  25  ~/main.yml
 |4,39,151,25,1671102449,"~/main.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
--'  29  49  ~/wp-congig.yml
-|4,39,29,49,1671102031,"~/wp-congig.yml"
 -'  151  25  ~/main.yml
-|4,39,151,25,1671101957,"~/main.yml"
--'  151  25  ~/main.yml
-|4,39,151,25,1671101957,"~/main.yml"
--'  151  25  ~/main.yml
-|4,39,151,25,1671101957,"~/main.yml"
--'  151  25  ~/main.yml
-|4,39,151,25,1671101957,"~/main.yml"
--'  151  25  ~/main.yml
-|4,39,151,25,1671101889,"~/main.yml"
--'  151  25  ~/main.yml
-|4,39,151,25,1671101889,"~/main.yml"
+|4,39,151,25,1671102449,"~/main.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
+-'  29  49  ~/wp-congig.yml
+|4,39,29,49,1671102031,"~/wp-congig.yml"
 
 # History of marks within files (newest to oldest):
 
 > ~/main.yml
-	*	1671105896	0
-	"	181	29
-	^	181	30
-	.	181	29
+	*	1671106119	0
+	"	205	15
+	^	205	16
+	.	206	0
 	+	22	15
 	+	6	10
 	+	31	16
@@ -285,6 +285,7 @@
 	+	187	15
 	+	166	3
 	+	181	29
+	+	206	0
 
 > ~/main.
 	*	1671105869	0
