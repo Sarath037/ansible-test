@@ -146,3 +146,11 @@
         remote_src: true
       tags:
         - wordpress
+    - name: "create wp-config"
+      template:
+        src: wp-congig.yml
+        dest: /var/www/html/{{ httpd_domain }}/wp-config.php
+        owner: "{{ httpd_owner }}"
+        group: "{{ httpd_group }}"
+      tags:
+        - wordpress
