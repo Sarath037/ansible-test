@@ -137,3 +137,12 @@
         remote_src: true
       tags:
         - wordpress
+    - name: "copying files to document root"
+      copy:
+        src: /tmp/wordpress/
+        dest: /var/www/html/{{ httpd_domain }}
+        owner: "{{ httpd_owner }}"
+        group: "{{ httpd_group }}"
+        remote_src: true
+      tags:
+        - wordpress

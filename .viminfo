@@ -12,7 +12,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1671101353,,"wq!"
+|2,0,1671101531,,"wq!"
 :q1
 |2,0,1671101255,,"q1"
 :q!
@@ -29,30 +29,36 @@
 # Registers:
 
 # File marks:
-'0  139  18  ~/main.yml
-|4,48,139,18,1671101353,"~/main.yml"
-'1  83  23  ~/main.yml
-|4,49,83,23,1671101255,"~/main.yml"
-'2  83  23  ~/main.yml
-|4,50,83,23,1671101255,"~/main.yml"
-'3  1  0  ~/main.
-|4,51,1,0,1671101237,"~/main."
+'0  148  18  ~/main.yml
+|4,48,148,18,1671101531,"~/main.yml"
+'1  139  18  ~/main.yml
+|4,49,139,18,1671101353,"~/main.yml"
+'2  139  18  ~/main.yml
+|4,50,139,18,1671101353,"~/main.yml"
+'3  83  23  ~/main.yml
+|4,51,83,23,1671101255,"~/main.yml"
 '4  83  23  ~/main.yml
-|4,52,83,23,1671101175,"~/main.yml"
+|4,52,83,23,1671101255,"~/main.yml"
 '5  83  23  ~/main.yml
-|4,53,83,23,1671101175,"~/main.yml"
-'6  3  29  ~/my.cnf.tmpl
-|4,54,3,29,1671101067,"~/my.cnf.tmpl"
-'7  3  29  ~/my.cnf.tmpl
-|4,55,3,29,1671101036,"~/my.cnf.tmpl"
-'8  74  3  ~/main.yml
-|4,56,74,3,1671100979,"~/main.yml"
-'9  74  3  ~/main.yml
-|4,57,74,3,1671100979,"~/main.yml"
+|4,53,83,23,1671101255,"~/main.yml"
+'6  83  23  ~/main.yml
+|4,54,83,23,1671101255,"~/main.yml"
+'7  1  0  ~/main.
+|4,55,1,0,1671101237,"~/main."
+'8  83  23  ~/main.yml
+|4,56,83,23,1671101175,"~/main.yml"
+'9  83  23  ~/main.yml
+|4,57,83,23,1671101175,"~/main.yml"
 
 # Jumplist (newest first):
+-'  148  18  ~/main.yml
+|4,39,148,18,1671101531,"~/main.yml"
+-'  139  18  ~/main.yml
+|4,39,139,18,1671101488,"~/main.yml"
 -'  139  18  ~/main.yml
 |4,39,139,18,1671101353,"~/main.yml"
+-'  83  23  ~/main.yml
+|4,39,83,23,1671101292,"~/main.yml"
 -'  83  23  ~/main.yml
 |4,39,83,23,1671101292,"~/main.yml"
 -'  83  23  ~/main.yml
@@ -65,6 +71,14 @@
 |4,39,1,0,1671101237,"~/main."
 -'  1  0  ~/main.
 |4,39,1,0,1671101237,"~/main."
+-'  1  0  ~/main.
+|4,39,1,0,1671101237,"~/main."
+-'  1  0  ~/main.
+|4,39,1,0,1671101237,"~/main."
+-'  1  0  ~/main.
+|4,39,1,0,1671101237,"~/main."
+-'  1  0  ~/main.
+|4,39,1,0,1671101237,"~/main."
 -'  83  23  ~/main.yml
 |4,39,83,23,1671101175,"~/main.yml"
 -'  83  23  ~/main.yml
@@ -77,188 +91,174 @@
 |4,39,74,3,1671101161,"~/main.yml"
 -'  74  3  ~/main.yml
 |4,39,74,3,1671101161,"~/main.yml"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101067,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101067,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101067,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101067,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101067,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101067,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101067,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101067,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101067,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101067,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101067,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101067,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101067,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101067,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101067,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101067,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101036,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101036,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101036,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101036,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101036,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101036,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101036,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101036,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101036,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101036,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101036,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101036,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101036,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101036,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101036,"~/my.cnf.tmpl"
--'  3  29  ~/my.cnf.tmpl
-|4,39,3,29,1671101036,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
--'  1  0  ~/my.cnf.tmpl
-|4,39,1,0,1671100989,"~/my.cnf.tmpl"
 -'  74  3  ~/main.yml
-|4,39,74,3,1671100979,"~/main.yml"
--'  74  3  ~/main.yml
-|4,39,74,3,1671100979,"~/main.yml"
--'  74  3  ~/main.yml
-|4,39,74,3,1671100979,"~/main.yml"
--'  74  3  ~/main.yml
-|4,39,74,3,1671100979,"~/main.yml"
--'  74  3  ~/main.yml
-|4,39,74,3,1671100979,"~/main.yml"
--'  74  3  ~/main.yml
-|4,39,74,3,1671100979,"~/main.yml"
--'  74  3  ~/main.yml
-|4,39,74,3,1671100979,"~/main.yml"
--'  74  3  ~/main.yml
-|4,39,74,3,1671100979,"~/main.yml"
--'  64  3  ~/main.yml
-|4,39,64,3,1671100873,"~/main.yml"
--'  64  3  ~/main.yml
-|4,39,64,3,1671100873,"~/main.yml"
--'  64  3  ~/main.yml
-|4,39,64,3,1671100873,"~/main.yml"
--'  64  3  ~/main.yml
-|4,39,64,3,1671100873,"~/main.yml"
--'  64  3  ~/main.yml
-|4,39,64,3,1671100873,"~/main.yml"
--'  64  3  ~/main.yml
-|4,39,64,3,1671100873,"~/main.yml"
--'  64  3  ~/main.yml
-|4,39,64,3,1671100873,"~/main.yml"
--'  64  3  ~/main.yml
-|4,39,64,3,1671100873,"~/main.yml"
--'  64  3  ~/main.yml
-|4,39,64,3,1671100873,"~/main.yml"
--'  64  3  ~/main.yml
-|4,39,64,3,1671100873,"~/main.yml"
--'  64  3  ~/main.yml
-|4,39,64,3,1671100873,"~/main.yml"
--'  64  3  ~/main.yml
-|4,39,64,3,1671100873,"~/main.yml"
--'  64  3  ~/main.yml
-|4,39,64,3,1671100577,"~/main.yml"
--'  64  3  ~/main.yml
-|4,39,64,3,1671100577,"~/main.yml"
--'  64  3  ~/main.yml
-|4,39,64,3,1671100577,"~/main.yml"
+|4,39,74,3,1671101161,"~/main.yml"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101067,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  3  29  ~/my.cnf.tmpl
+|4,39,3,29,1671101036,"~/my.cnf.tmpl"
+-'  1  0  ~/my.cnf.tmpl
+|4,39,1,0,1671100989,"~/my.cnf.tmpl"
+-'  1  0  ~/my.cnf.tmpl
+|4,39,1,0,1671100989,"~/my.cnf.tmpl"
+-'  1  0  ~/my.cnf.tmpl
+|4,39,1,0,1671100989,"~/my.cnf.tmpl"
+-'  1  0  ~/my.cnf.tmpl
+|4,39,1,0,1671100989,"~/my.cnf.tmpl"
+-'  1  0  ~/my.cnf.tmpl
+|4,39,1,0,1671100989,"~/my.cnf.tmpl"
+-'  1  0  ~/my.cnf.tmpl
+|4,39,1,0,1671100989,"~/my.cnf.tmpl"
+-'  1  0  ~/my.cnf.tmpl
+|4,39,1,0,1671100989,"~/my.cnf.tmpl"
+-'  1  0  ~/my.cnf.tmpl
+|4,39,1,0,1671100989,"~/my.cnf.tmpl"
+-'  1  0  ~/my.cnf.tmpl
+|4,39,1,0,1671100989,"~/my.cnf.tmpl"
+-'  1  0  ~/my.cnf.tmpl
+|4,39,1,0,1671100989,"~/my.cnf.tmpl"
+-'  1  0  ~/my.cnf.tmpl
+|4,39,1,0,1671100989,"~/my.cnf.tmpl"
+-'  1  0  ~/my.cnf.tmpl
+|4,39,1,0,1671100989,"~/my.cnf.tmpl"
+-'  1  0  ~/my.cnf.tmpl
+|4,39,1,0,1671100989,"~/my.cnf.tmpl"
+-'  1  0  ~/my.cnf.tmpl
+|4,39,1,0,1671100989,"~/my.cnf.tmpl"
+-'  1  0  ~/my.cnf.tmpl
+|4,39,1,0,1671100989,"~/my.cnf.tmpl"
 
 # History of marks within files (newest to oldest):
 
 > ~/main.yml
-	*	1671101351	0
-	"	139	18
-	^	139	19
-	.	140	0
+	*	1671101528	0
+	"	148	18
+	^	148	19
+	.	148	18
 	+	22	15
 	+	6	10
 	+	31	16
@@ -276,6 +276,7 @@
 	+	126	18
 	+	83	23
 	+	140	0
+	+	148	18
 
 > ~/main.
 	*	1671101234	0
