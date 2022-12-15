@@ -69,3 +69,58 @@
       tags:
         - drupal
         - wordpress
+    - name: "setting root password"
+      mysql_user:
+        user: "{{ mysql_user }}"
+        password: "{{ mysql_root_passwd }}"
+        host: "%"
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+      tags:
+        - drupal
+        - wordpress
+    - name: "fetch root password"
+      template:
+        src: my.cnf.tmpl
+        dest: /root/.my.cnf
+        owner: root
+        group: root
+        mode: 0600
+      tags:
+        - drupal
+        - wordpress
+    - name: "removing anonymous users"
+      mysql_user:
+        user: ""
+        host_all: true
+        state: absent
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+      tags:
+        - drupal
+        - wordpress
+    - name: "create data base"
+      mysql_db:
+        name: "{{ mysql_extra_database }}"
+        state: present
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+      tags:
+        - drupal
+        - wordpress
+    - name: "removing test database"
+      mysql_db:
+        name: test
+        state: absent
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+      tags:
+        - drupal
+        - wordpress
+    - name: "create extra user"
+      mysql_user:
+        user: "{{ mysql_extra_usr }}"
+        password: "{{ mysql_extra_usr_passwd }}"
+        priv: '{{ mysql_extra_database }}.*:ALL'
+        host: "%"
+        state: present
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+      tags:
+        - drupal
+        - wordpress
