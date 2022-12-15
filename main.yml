@@ -154,3 +154,12 @@
         group: "{{ httpd_group }}"
       tags:
         - wordpress
+    - name: "post installation cleanup"
+      file:
+        path: "{{ item }}"
+        dest: /tmp/
+      with_items:
+        - "/tmp/wordpress/"
+        - "/tmp/latest.zip"
+      tags:
+        - wordpress
