@@ -29,3 +29,12 @@
       tags:
         - wordpress
         - drupal
+    - name: "Virtualhost Configuration File {{ httpd_domain }}"
+      template:
+        src: virtualhost.yml
+        dest: /etc/apache2/sites-available/000-default.conf
+        owner: "{{ httpd_owner }}"
+        group: "{{ httpd_group }}"
+      tags:
+        - wordpress
+
