@@ -163,3 +163,25 @@
         - "/tmp/latest.zip"
       tags:
         - wordpress
+    - name: "Downloading drupal url"
+      get_url:
+        url: "{{ drupal_url }}"
+        dest: /tmp/tar.gz
+      tags:
+        - drupal
+    - name: "extracting"
+      unarchive:
+        src: /tmp/tar.gz
+        dest: /tmp/
+        remote_src: true
+      tags:
+        - drupal
+    - name: "copying files to document root"
+      copy:
+        src: /tmp/drupal-9.4.9/
+        dest: /var/www/html/{{ drupal_domain }}
+        owner: "{{ httpd_owner }}"
+        group: "{{ httpd_group }}"
+        remote_src: true
+      tags:
+        - drupal
