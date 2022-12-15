@@ -1,0 +1,21 @@
+---
+httpd_port: 80
+httpd_domain: "wordpress.sarath.quest"
+drupal_domain: "drupal.sarath.quest"
+httpd_owner: "www-data"
+httpd_group: "www-data"
+packages:
+  - apache2
+  - mariadb-server
+  - mariadb-client
+  - php
+  - php-mysql
+  - python3-pip
+  - unzip
+mysql_root_passwd: "mysql@123"
+mysql_extra_usr: "sarath"
+mysql_extra_usr_passwd: "sarath@123"
+mysql_user: "root"
+mysql_extra_database: "saradb"
+wp_url: "https://wordpress.org/latest.zip"
+drupal_url: "https://www.drupal.org/download-latest/tar.gz"

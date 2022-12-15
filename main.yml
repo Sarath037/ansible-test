@@ -1,0 +1,22 @@
+---
+- name: "Wordpress Installation"
+  hosts: "ubuntu"
+  become: true
+  vars_files:
+    - main.var
+  tasks:
+    - name: "Lamp - Installing Apache and mariadb server"
+      apt:
+        name: "{{ packages }}"
+        state: present
+        update_cache: true
+      tags:
+        - wordpress
+        - drupal
+    - name: "install pymsql"
+      pip:
+        name: pymysql
+        state: present
+      tags:
+        - wordpress
+        - drupal
