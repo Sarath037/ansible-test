@@ -37,4 +37,11 @@
         group: "{{ httpd_group }}"
       tags:
         - wordpress
-
+    - name: "Lamp - Creating Documentroot {{ httpd_domain }}"
+      file:
+        path: "/var/www/html/{{ httpd_domain }}"
+        state: directory
+        owner: "{{ httpd_owner }}"
+        group: "{{ httpd_group }}"
+      tags:
+        - wordpress
