@@ -61,3 +61,11 @@
         group: "{{ httpd_group }}"
       tags:
         - drupal
+    - name: "Restart/enable mariadb"
+      service:
+        name: mariadb
+        state: restarted
+        enabled: true
+      tags:
+        - drupal
+        - wordpress
